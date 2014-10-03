@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		802701B9197075AF00FA5702 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802701B8197075AF00FA5702 /* Social.framework */; };
+		802701BB1970A51200FA5702 /* gameover.caf in Resources */ = {isa = PBXBuildFile; fileRef = 802701BA1970A51200FA5702 /* gameover.caf */; };
+		8028B4AB196CA22800441E86 /* water.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8028B4AA196CA22800441E86 /* water.mp3 */; };
+		8028B4AD196CA39500441E86 /* shark2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8028B4AC196CA39500441E86 /* shark2.png */; };
+		8028B50A196DF49D00441E86 /* underwater.png in Resources */ = {isa = PBXBuildFile; fileRef = 8028B509196DF49D00441E86 /* underwater.png */; };
+		8028B512196E2F5000441E86 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 8028B511196E2F5000441E86 /* title.png */; };
+		8028B516196E30E500441E86 /* backgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8028B515196E30E500441E86 /* backgroundImage.png */; };
+		8028B51A196E340900441E86 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8028B519196E340900441E86 /* image.jpg */; };
+		8038F6BB196F3139002C16E5 /* mute.png in Resources */ = {isa = PBXBuildFile; fileRef = 8038F6BA196F3139002C16E5 /* mute.png */; };
+		8038F6C5196F489B002C16E5 /* fish.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 8038F6C4196F489B002C16E5 /* fish.atlas */; };
+		80431607196B759900BC6BD1 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 80431606196B759900BC6BD1 /* play.png */; };
+		80801F741963514000FF5107 /* sharkhit.caf in Resources */ = {isa = PBXBuildFile; fileRef = 80801F731963514000FF5107 /* sharkhit.caf */; };
+		809BB990194D591100F52E64 /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = 809BB98F194D591100F52E64 /* gameover.png */; };
+		80AF84D1196F5C7A0042817A /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 80AF84D0196F5C7A0042817A /* fish.png */; };
+		80CC353319431AB3005D266A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CC353219431AB3005D266A /* Foundation.framework */; };
+		80CC353519431AB3005D266A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CC353419431AB3005D266A /* CoreGraphics.framework */; };
+		80CC353719431AB3005D266A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CC353619431AB3005D266A /* UIKit.framework */; };
+		80CC353919431AB3005D266A /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CC353819431AB3005D266A /* SpriteKit.framework */; };
+		80CC353F19431AB3005D266A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80CC353D19431AB3005D266A /* InfoPlist.strings */; };
+		80CC354119431AB3005D266A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CC354019431AB3005D266A /* main.m */; };
+		80CC354519431AB3005D266A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CC354419431AB3005D266A /* AppDelegate.m */; };
+		80CC354819431AB3005D266A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CC354619431AB3005D266A /* Main.storyboard */; };
+		80CC354B19431AB3005D266A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CC354A19431AB3005D266A /* ViewController.m */; };
+		80CC354E19431AB3005D266A /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CC354D19431AB3005D266A /* MyScene.m */; };
+		80CC355219431AB3005D266A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80CC355119431AB3005D266A /* Images.xcassets */; };
+		80CC355919431AB4005D266A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CC355819431AB4005D266A /* XCTest.framework */; };
+		80CC355A19431AB4005D266A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CC353219431AB3005D266A /* Foundation.framework */; };
+		80CC355B19431AB4005D266A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CC353619431AB3005D266A /* UIKit.framework */; };
+		80CC356319431AB4005D266A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80CC356119431AB4005D266A /* InfoPlist.strings */; };
+		80CC356519431AB4005D266A /* Fish_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CC356419431AB4005D266A /* Fish_AppTests.m */; };
+		80CC357319431F35005D266A /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CC357219431F35005D266A /* MainMenu.m */; };
+		80CC35761943E239005D266A /* GameOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CC35751943E239005D266A /* GameOver.m */; };
+		80CC358019445818005D266A /* Watergun.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CC357F19445818005D266A /* Watergun.png */; };
+		80CC358619448D06005D266A /* fishbackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80CC358519448D06005D266A /* fishbackground.jpg */; };
+		80CC359019454AEA005D266A /* name.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CC358F19454AEA005D266A /* name.png */; };
+		80CC359619455113005D266A /* ready.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CC359519455113005D266A /* ready.png */; };
+		80E2233619D60F0E0035D43E /* bestScore.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E2233519D60F0E0035D43E /* bestScore.png */; };
+		80E2233819D60F200035D43E /* water2.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E2233719D60F200035D43E /* water2.png */; };
+		80E2233A19D60F2C0035D43E /* water1.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E2233919D60F2C0035D43E /* water1.png */; };
+		80E2233C19D60F3F0035D43E /* Retry.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E2233B19D60F3F0035D43E /* Retry.png */; };
+		80E2233E19D60F4D0035D43E /* sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E2233D19D60F4C0035D43E /* sound.png */; };
+		80E2234019D60F570035D43E /* Done.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E2233F19D60F570035D43E /* Done.png */; };
+		80E2234219D72A600035D43E /* sea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 80E2234119D72A600035D43E /* sea.mp3 */; };
+		80E2234419D72A870035D43E /* lifeup.wav in Resources */ = {isa = PBXBuildFile; fileRef = 80E2234319D72A870035D43E /* lifeup.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80CC355C19431AB4005D266A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80CC352719431AB3005D266A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80CC352E19431AB3005D266A;
+			remoteInfo = "Fish App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		802701B8197075AF00FA5702 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		802701BA1970A51200FA5702 /* gameover.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gameover.caf; sourceTree = "<group>"; };
+		8028B4AA196CA22800441E86 /* water.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = water.mp3; sourceTree = "<group>"; };
+		8028B4AC196CA39500441E86 /* shark2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shark2.png; sourceTree = "<group>"; };
+		8028B509196DF49D00441E86 /* underwater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = underwater.png; sourceTree = "<group>"; };
+		8028B511196E2F5000441E86 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		8028B515196E30E500441E86 /* backgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundImage.png; sourceTree = "<group>"; };
+		8028B519196E340900441E86 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		8038F6BA196F3139002C16E5 /* mute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mute.png; sourceTree = "<group>"; };
+		8038F6C4196F489B002C16E5 /* fish.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = fish.atlas; sourceTree = "<group>"; };
+		80431606196B759900BC6BD1 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		80801F731963514000FF5107 /* sharkhit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sharkhit.caf; sourceTree = "<group>"; };
+		809BB98F194D591100F52E64 /* gameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameover.png; sourceTree = "<group>"; };
+		80AF84D0196F5C7A0042817A /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish.png; sourceTree = "<group>"; };
+		80CC352F19431AB3005D266A /* Fish App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fish App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CC353219431AB3005D266A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80CC353419431AB3005D266A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80CC353619431AB3005D266A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80CC353819431AB3005D266A /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		80CC353C19431AB3005D266A /* Fish App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fish App-Info.plist"; sourceTree = "<group>"; };
+		80CC353E19431AB3005D266A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80CC354019431AB3005D266A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80CC354219431AB3005D266A /* Fish App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fish App-Prefix.pch"; sourceTree = "<group>"; };
+		80CC354319431AB3005D266A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80CC354419431AB3005D266A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80CC354719431AB3005D266A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80CC354919431AB3005D266A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80CC354A19431AB3005D266A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80CC354C19431AB3005D266A /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		80CC354D19431AB3005D266A /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		80CC355119431AB3005D266A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80CC355719431AB4005D266A /* Fish AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fish AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CC355819431AB4005D266A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		80CC356019431AB4005D266A /* Fish AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fish AppTests-Info.plist"; sourceTree = "<group>"; };
+		80CC356219431AB4005D266A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80CC356419431AB4005D266A /* Fish_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fish_AppTests.m; sourceTree = "<group>"; };
+		80CC357119431F35005D266A /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		80CC357219431F35005D266A /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
+		80CC35741943E239005D266A /* GameOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOver.h; sourceTree = "<group>"; };
+		80CC35751943E239005D266A /* GameOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOver.m; sourceTree = "<group>"; };
+		80CC357F19445818005D266A /* Watergun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Watergun.png; sourceTree = "<group>"; };
+		80CC358519448D06005D266A /* fishbackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fishbackground.jpg; sourceTree = "<group>"; };
+		80CC358F19454AEA005D266A /* name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = name.png; sourceTree = "<group>"; };
+		80CC359519455113005D266A /* ready.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ready.png; sourceTree = "<group>"; };
+		80E2233519D60F0E0035D43E /* bestScore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bestScore.png; sourceTree = "<group>"; };
+		80E2233719D60F200035D43E /* water2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = water2.png; path = "Fish App/Images.xcassets/water2.imageset/water2.png"; sourceTree = "<group>"; };
+		80E2233919D60F2C0035D43E /* water1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = water1.png; path = "Fish App/Images.xcassets/water1.imageset/water1.png"; sourceTree = "<group>"; };
+		80E2233B19D60F3F0035D43E /* Retry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Retry.png; path = "Fish App/Images.xcassets/Retry.imageset/Retry.png"; sourceTree = "<group>"; };
+		80E2233D19D60F4C0035D43E /* sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sound.png; path = "Fish App/Images.xcassets/sound.imageset/sound.png"; sourceTree = "<group>"; };
+		80E2233F19D60F570035D43E /* Done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Done.png; path = "Fish App/Images.xcassets/Done.imageset/Done.png"; sourceTree = "<group>"; };
+		80E2234119D72A600035D43E /* sea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sea.mp3; sourceTree = "<group>"; };
+		80E2234319D72A870035D43E /* lifeup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lifeup.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80CC352C19431AB3005D266A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802701B9197075AF00FA5702 /* Social.framework in Frameworks */,
+				80CC353519431AB3005D266A /* CoreGraphics.framework in Frameworks */,
+				80CC353719431AB3005D266A /* UIKit.framework in Frameworks */,
+				80CC353919431AB3005D266A /* SpriteKit.framework in Frameworks */,
+				80CC353319431AB3005D266A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CC355419431AB4005D266A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CC355919431AB4005D266A /* XCTest.framework in Frameworks */,
+				80CC355B19431AB4005D266A /* UIKit.framework in Frameworks */,
+				80CC355A19431AB4005D266A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80CC352619431AB3005D266A = {
+			isa = PBXGroup;
+			children = (
+				809BB98F194D591100F52E64 /* gameover.png */,
+				80E2234319D72A870035D43E /* lifeup.wav */,
+				8038F6C4196F489B002C16E5 /* fish.atlas */,
+				8028B509196DF49D00441E86 /* underwater.png */,
+				8028B511196E2F5000441E86 /* title.png */,
+				80E2233F19D60F570035D43E /* Done.png */,
+				8028B515196E30E500441E86 /* backgroundImage.png */,
+				80E2233B19D60F3F0035D43E /* Retry.png */,
+				8038F6BA196F3139002C16E5 /* mute.png */,
+				80E2233D19D60F4C0035D43E /* sound.png */,
+				80E2234119D72A600035D43E /* sea.mp3 */,
+				80E2233519D60F0E0035D43E /* bestScore.png */,
+				80E2233919D60F2C0035D43E /* water1.png */,
+				80E2233719D60F200035D43E /* water2.png */,
+				802701BA1970A51200FA5702 /* gameover.caf */,
+				8028B4AC196CA39500441E86 /* shark2.png */,
+				8028B4AA196CA22800441E86 /* water.mp3 */,
+				80AF84D0196F5C7A0042817A /* fish.png */,
+				80431606196B759900BC6BD1 /* play.png */,
+				8028B519196E340900441E86 /* image.jpg */,
+				80CC358F19454AEA005D266A /* name.png */,
+				80CC359519455113005D266A /* ready.png */,
+				80801F731963514000FF5107 /* sharkhit.caf */,
+				80CC358519448D06005D266A /* fishbackground.jpg */,
+				80CC357F19445818005D266A /* Watergun.png */,
+				80CC353A19431AB3005D266A /* Fish App */,
+				80CC355E19431AB4005D266A /* Fish AppTests */,
+				80CC353119431AB3005D266A /* Frameworks */,
+				80CC353019431AB3005D266A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80CC353019431AB3005D266A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80CC352F19431AB3005D266A /* Fish App.app */,
+				80CC355719431AB4005D266A /* Fish AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80CC353119431AB3005D266A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				802701B8197075AF00FA5702 /* Social.framework */,
+				80CC353219431AB3005D266A /* Foundation.framework */,
+				80CC353419431AB3005D266A /* CoreGraphics.framework */,
+				80CC353619431AB3005D266A /* UIKit.framework */,
+				80CC353819431AB3005D266A /* SpriteKit.framework */,
+				80CC355819431AB4005D266A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80CC353A19431AB3005D266A /* Fish App */ = {
+			isa = PBXGroup;
+			children = (
+				80CC354319431AB3005D266A /* AppDelegate.h */,
+				80CC354419431AB3005D266A /* AppDelegate.m */,
+				80CC354619431AB3005D266A /* Main.storyboard */,
+				80CC354919431AB3005D266A /* ViewController.h */,
+				80CC354A19431AB3005D266A /* ViewController.m */,
+				80CC357119431F35005D266A /* MainMenu.h */,
+				80CC357219431F35005D266A /* MainMenu.m */,
+				80CC354D19431AB3005D266A /* MyScene.m */,
+				80CC354C19431AB3005D266A /* MyScene.h */,
+				80CC35741943E239005D266A /* GameOver.h */,
+				80CC35751943E239005D266A /* GameOver.m */,
+				80CC355119431AB3005D266A /* Images.xcassets */,
+				80CC353B19431AB3005D266A /* Supporting Files */,
+			);
+			path = "Fish App";
+			sourceTree = "<group>";
+		};
+		80CC353B19431AB3005D266A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80CC353C19431AB3005D266A /* Fish App-Info.plist */,
+				80CC353D19431AB3005D266A /* InfoPlist.strings */,
+				80CC354019431AB3005D266A /* main.m */,
+				80CC354219431AB3005D266A /* Fish App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80CC355E19431AB4005D266A /* Fish AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				80CC356419431AB4005D266A /* Fish_AppTests.m */,
+				80CC355F19431AB4005D266A /* Supporting Files */,
+			);
+			path = "Fish AppTests";
+			sourceTree = "<group>";
+		};
+		80CC355F19431AB4005D266A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80CC356019431AB4005D266A /* Fish AppTests-Info.plist */,
+				80CC356119431AB4005D266A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80CC352E19431AB3005D266A /* Fish App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CC356819431AB4005D266A /* Build configuration list for PBXNativeTarget "Fish App" */;
+			buildPhases = (
+				80CC352B19431AB3005D266A /* Sources */,
+				80CC352C19431AB3005D266A /* Frameworks */,
+				80CC352D19431AB3005D266A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fish App";
+			productName = "Fish App";
+			productReference = 80CC352F19431AB3005D266A /* Fish App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80CC355619431AB4005D266A /* Fish AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CC356B19431AB4005D266A /* Build configuration list for PBXNativeTarget "Fish AppTests" */;
+			buildPhases = (
+				80CC355319431AB4005D266A /* Sources */,
+				80CC355419431AB4005D266A /* Frameworks */,
+				80CC355519431AB4005D266A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80CC355D19431AB4005D266A /* PBXTargetDependency */,
+			);
+			name = "Fish AppTests";
+			productName = "Fish AppTests";
+			productReference = 80CC355719431AB4005D266A /* Fish AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80CC352719431AB3005D266A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = final;
+				TargetAttributes = {
+					80CC355619431AB4005D266A = {
+						TestTargetID = 80CC352E19431AB3005D266A;
+					};
+				};
+			};
+			buildConfigurationList = 80CC352A19431AB3005D266A /* Build configuration list for PBXProject "Fish App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80CC352619431AB3005D266A;
+			productRefGroup = 80CC353019431AB3005D266A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80CC352E19431AB3005D266A /* Fish App */,
+				80CC355619431AB4005D266A /* Fish AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80CC352D19431AB3005D266A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E2233619D60F0E0035D43E /* bestScore.png in Resources */,
+				80CC353F19431AB3005D266A /* InfoPlist.strings in Resources */,
+				8038F6BB196F3139002C16E5 /* mute.png in Resources */,
+				80E2233A19D60F2C0035D43E /* water1.png in Resources */,
+				8028B512196E2F5000441E86 /* title.png in Resources */,
+				8038F6C5196F489B002C16E5 /* fish.atlas in Resources */,
+				80AF84D1196F5C7A0042817A /* fish.png in Resources */,
+				8028B4AB196CA22800441E86 /* water.mp3 in Resources */,
+				80E2234419D72A870035D43E /* lifeup.wav in Resources */,
+				80E2233C19D60F3F0035D43E /* Retry.png in Resources */,
+				80CC359619455113005D266A /* ready.png in Resources */,
+				80E2233819D60F200035D43E /* water2.png in Resources */,
+				80CC355219431AB3005D266A /* Images.xcassets in Resources */,
+				80E2234219D72A600035D43E /* sea.mp3 in Resources */,
+				80CC358019445818005D266A /* Watergun.png in Resources */,
+				8028B516196E30E500441E86 /* backgroundImage.png in Resources */,
+				80CC359019454AEA005D266A /* name.png in Resources */,
+				8028B51A196E340900441E86 /* image.jpg in Resources */,
+				80431607196B759900BC6BD1 /* play.png in Resources */,
+				80E2233E19D60F4D0035D43E /* sound.png in Resources */,
+				802701BB1970A51200FA5702 /* gameover.caf in Resources */,
+				80CC354819431AB3005D266A /* Main.storyboard in Resources */,
+				80801F741963514000FF5107 /* sharkhit.caf in Resources */,
+				8028B50A196DF49D00441E86 /* underwater.png in Resources */,
+				8028B4AD196CA39500441E86 /* shark2.png in Resources */,
+				80E2234019D60F570035D43E /* Done.png in Resources */,
+				80CC358619448D06005D266A /* fishbackground.jpg in Resources */,
+				809BB990194D591100F52E64 /* gameover.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CC355519431AB4005D266A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CC356319431AB4005D266A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80CC352B19431AB3005D266A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CC354E19431AB3005D266A /* MyScene.m in Sources */,
+				80CC354B19431AB3005D266A /* ViewController.m in Sources */,
+				80CC354519431AB3005D266A /* AppDelegate.m in Sources */,
+				80CC35761943E239005D266A /* GameOver.m in Sources */,
+				80CC354119431AB3005D266A /* main.m in Sources */,
+				80CC357319431F35005D266A /* MainMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CC355319431AB4005D266A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CC356519431AB4005D266A /* Fish_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80CC355D19431AB4005D266A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80CC352E19431AB3005D266A /* Fish App */;
+			targetProxy = 80CC355C19431AB4005D266A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80CC353D19431AB3005D266A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CC353E19431AB3005D266A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80CC354619431AB3005D266A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CC354719431AB3005D266A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80CC356119431AB4005D266A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CC356219431AB4005D266A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80CC356619431AB4005D266A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "IPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80CC356719431AB4005D266A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "IPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80CC356919431AB4005D266A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "IPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fish App/Fish App-Prefix.pch";
+				INFOPLIST_FILE = "Fish App/Fish App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80CC356A19431AB4005D266A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "IPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fish App/Fish App-Prefix.pch";
+				INFOPLIST_FILE = "Fish App/Fish App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		80CC356C19431AB4005D266A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fish App.app/Fish App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fish App/Fish App-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fish AppTests/Fish AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		80CC356D19431AB4005D266A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fish App.app/Fish App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fish App/Fish App-Prefix.pch";
+				INFOPLIST_FILE = "Fish AppTests/Fish AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80CC352A19431AB3005D266A /* Build configuration list for PBXProject "Fish App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CC356619431AB4005D266A /* Debug */,
+				80CC356719431AB4005D266A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80CC356819431AB4005D266A /* Build configuration list for PBXNativeTarget "Fish App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CC356919431AB4005D266A /* Debug */,
+				80CC356A19431AB4005D266A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80CC356B19431AB4005D266A /* Build configuration list for PBXNativeTarget "Fish AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CC356C19431AB4005D266A /* Debug */,
+				80CC356D19431AB4005D266A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80CC352719431AB3005D266A /* Project object */;
+}
