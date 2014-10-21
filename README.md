@@ -5,6 +5,8 @@ Shark Tap is an iOS game that I developed using the SpriteKit framework. It runs
 
 The concept of the game is to tap near a paricular distance from the swimming sharks to get points. The higher the points, the harder it is the "eat" the sharks because of the increase in speed and AI.
 
+Download from the App Store: https://itunes.apple.com/us/app/shark-tap/id928321052?ls=1&mt=8
+
 To run, open the Xcode project in this repository. 
 
 The MIT License (MIT)
